@@ -5,7 +5,7 @@ import pandas as pd
 
 
 #1.veri yukleme
-veriler = pd.read_csv('C:/Users/jrswe/Desktop/python_dosyasi/makine ogrenmesi/odev_tenis.csv')
+veriler = pd.read_csv('THERE IS YOUR DIRECTORY OF DATASET')
 
 print(veriler)
 temphum = veriler.iloc[:,1:3].values
